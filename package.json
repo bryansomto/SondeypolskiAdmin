@@ -31,5 +31,20 @@
     "eslint-config-next": "14.0.2",
     "postcss": "^8",
     "tailwindcss": "^3.3.0"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryansomto/Besac-eCommerceAdmin.git"
+  },
+  "author": "Ike-Adinnu Somtochukwu Bryan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryansomto/Besac-eCommerceAdmin/issues"
+  },
+  "homepage": "https://github.com/bryansomto/Besac-eCommerceAdmin#readme"
 }
