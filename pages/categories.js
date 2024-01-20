@@ -50,7 +50,7 @@ function Categories({ swal }) {
     setParentCategory(category.parent?._id);
     setProperties(
       category.properties.map(({ name, values }) => ({
-        key: p._id,
+        key: name._id,
         name,
         values: values.join(","),
       }))
