@@ -1,5 +1,5 @@
 {
-  "name": "besac-admin",
+  "name": "sondeypolski-admin",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -46,5 +46,11 @@
   "bugs": {
     "url": "https://github.com/bryansomto/Besac-eCommerceAdmin/issues"
   },
-  "homepage": "https://github.com/bryansomto/Besac-eCommerceAdmin#readme"
+  "homepage": "https://github.com/bryansomto/Besac-eCommerceAdmin#readme",
+  "keywords": [
+    "e-commerce",
+    "tech-store",
+    "online-store",
+    "admin-page"
+  ]
 }
