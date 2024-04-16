@@ -1,4 +1,5 @@
 import clientPromise from "@/lib/mongodb";
+import { mongooseConnect } from "@/lib/mongoose";
 import { Admin } from "@/models/Admin";
 import { MongoDBAdapter } from "@next-auth/mongodb-adapter";
 import NextAuth, { getServerSession } from "next-auth";
@@ -7,6 +8,7 @@ import GoogleProvider from "next-auth/providers/google";
 import { custom } from "openid-client";
 
 async function isAdminEmail(email) {
+  await mongooseConnect();
   // return true;
   return !!(await Admin.findOne({ email }));
 }
