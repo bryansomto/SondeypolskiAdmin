@@ -7,7 +7,7 @@ import GoogleProvider from "next-auth/providers/google";
 import { custom } from "openid-client";
 
 async function isAdminEmail(email) {
-  return true;
+  // return true;
   return !!(await Admin.findOne({ email }));
 }
 
